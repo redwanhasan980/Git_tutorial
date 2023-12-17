@@ -21,3 +21,11 @@ see all commit
 
 git add first.txt
 only the first.txt will go into stage
+
+rm -rf .git
+git local repo will deleted 
+
+git clone server_repo_link
+download the repo from server to our local mechine
+
+
