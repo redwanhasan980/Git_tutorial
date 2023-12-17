@@ -12,3 +12,9 @@ initialized
 
 git ad --a
 all item stage
+
+git commit -m "commit name"
+take snapshot and save in local mechine
+
+git log 
+see all commit
