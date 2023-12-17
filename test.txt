@@ -10,7 +10,7 @@ check status
 git init
 initialized
 
-git ad --a
+git ad --a or git add .
 all item stage
 
 git commit -m "commit name"
@@ -47,7 +47,22 @@ commit(UNMODIFIED)
 
 #####git ignore
 touch //touch is the commund that create new file in linux ( exe: touch name.txt)
+ 
+ git ignore is use to ignore some file lets say we have a log file in our software and we want to ignore this 
+ file we dont want this file to get commited
 
+ to ignore some file 
+ 1. we have to make a file name .gitignore (this is a hidden file)
+      to see hidden file in linux we have to write commund (ls -a)or (ls -al) or (ls -a1), 
+ 2. just write the name of the ignored file in the new file we have created then save
+ 3. to ignore some specific types of file lets say .exe or .log we can write *.log instead of the file name
+ 4. to ignore folder save the name of the folder folder/ (all folder with this name)
+                                                 /folder/ (just the folder in the working folder)
+                                                folder path (just the folder)
+
+
+       
+##git diff
 
 
 
