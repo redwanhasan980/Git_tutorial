@@ -1,0 +1,14 @@
+local folder-->> stage--> commit --> repo
+
+git config --global user.name "Redwan"
+git config --global user.email "jKJSKJ"
+
+
+git status 
+check status
+
+git init
+initialized
+
+git ad --a
+all item stage
