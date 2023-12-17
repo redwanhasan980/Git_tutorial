@@ -18,3 +18,6 @@ take snapshot and save in local mechine
 
 git log 
 see all commit
+
+git add first.txt
+only the first.txt will go into stage
