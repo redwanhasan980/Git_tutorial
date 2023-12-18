@@ -71,6 +71,9 @@ git diff --staged
 use to determine the difference between stage and last commited version.
 
 
+##skipping the stage(direct commit)
+git commit -a -m "name"
+
 
 
 
