@@ -10,7 +10,7 @@ check status
 git init
 initialized
 
-git ad --a or git add .
+git add --a or git add .
 all item stage
 
 git commit -m "commit name"
@@ -26,7 +26,7 @@ rm -rf .git
 git local repo will deleted 
 
 git clone server_repo_link
-download the repo from server to our local mechine
+download the repo from server to our local mechine.
 
 
 
@@ -60,9 +60,10 @@ touch //touch is the commund that create new file in linux ( exe: touch name.txt
                                                  /folder/ (just the folder in the working folder)
                                                 folder path (just the folder)
 
-
+day2
        
 ##git diff
+
 
 
 
