@@ -36,7 +36,7 @@ download the repo from server to our local mechine.
 .git is the repo or folder
 (UNTRACKED file)
 
-git add (file is UNMODIFIED TRACKED STAGED) //first time its also called unmodified
+git add (file is UNMODIFIED TRACKED STAGED)
 
 modify(MODIFIED)
 
@@ -63,6 +63,13 @@ touch //touch is the commund that create new file in linux ( exe: touch name.txt
 day2
        
 ##git diff
+
+git diff
+use to determine the difference between stage and working directory.
+
+git diff --staged 
+use to determine the difference between stage and last commited version.
+
 
 
 
