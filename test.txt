@@ -65,7 +65,8 @@ day2
 ##git diff
 
 git diff
-use to determine the difference between stage and working directory.
+use to determine the difference between stage and working directory.(when we stage a file and then edit that file again 
+gi diff compare the staged file with the edited file)
 
 git diff --staged 
 use to determine the difference between stage and last commited version.
@@ -76,7 +77,9 @@ git commit -a -m "name"
 //all the tracked file will get commited (no untracked file will commited so if we create a new file this will not commited)
 
 
-
+day3
+##move remove and rename file
+git rm "fileName"
 
 
 
