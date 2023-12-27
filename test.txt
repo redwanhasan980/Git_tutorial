@@ -66,7 +66,7 @@ day2
 
 git diff
 use to determine the difference between stage and working directory.(when we stage a file and then edit that file again 
-gi diff compare the staged file with the edited file)
+git diff compare the staged file with the edited file)
 
 git diff --staged 
 use to determine the difference between stage and last commited version.
@@ -109,6 +109,21 @@ only the commit of last 2 days
 
 git log --pretty=format:"%h--%an"
 use to format the commit menually as we want %h %an is in details in git scm website
+
+day 5
+##Unstage file/Unmodify file
+
+git restore --staged file_name
+unstaged a stage file
+
+git checkout -- fileName
+unmodify file(if we edit or modify a file and then want to make that perticular file like last commit)
+
+git checkout -f
+all file will go back to last commit
+
+
+
 
 
 
