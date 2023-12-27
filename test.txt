@@ -25,7 +25,7 @@ only the first.txt will go into stage
 rm -rf .git
 git local repo will deleted 
 
-git clone server_repo_link
+git clone server_repo_link file_name
 download the repo from server to our local mechine.
 
 
@@ -80,6 +80,40 @@ git commit -a -m "name"
 day3
 ##move remove and rename file
 git rm "fileName"
+
+day 4
+##git log details
+
+git log -p
+it will tell us in details what we have modified in that commit what have been deleted what have been added
+
+git log -p -2
+it will only show the details of last 2 commit(we can use any number instead of 2)
+
+git log --stat
+brifly tell us what happen in that commit
+
+git log --pretty=oneline
+all commit will show one by one in one simple line(just the name of the commit)
+
+git log --pretty=short
+all commit will shown but only the author name and commit name
+
+git log --pretty=full
+all commit will shown but only the author name and commit name and who did the commit(commitor)
+//who create the file (author).Who commit the change(commitor)
+
+git log --since=2.days
+only the commit of last 2 days
+//git log --since=2.weeks/2.months/2.years
+
+git log --pretty=format:"%h--%an"
+use to format the commit menually as we want %h %an is in details in git scm website
+
+
+
+
+
 
 
 
