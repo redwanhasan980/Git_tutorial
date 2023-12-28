@@ -124,6 +124,26 @@ all file will go back to last commit
 
 
 
+day 6
+##work with Remote server
+remote - a server who store git repo
+
+step 1 : we have to add the remote repo link in our local folder
+  (git remote add origin https://github.com/redwanhasan980/Git_tutorial.git) using this
+   // here "origin" is the name of that remote url.
+
+step 2: push in the remote
+     first we have to give permission
+      
+     
+     git token:
+     git hub setting-->personal access token-->classic token-->generate new token-->
+ token: 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
+ git remote set-url origin https://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@github.com/redwanhasan980/Git_tutorial.git
+    git push -u origin master
+
+
+
 
 
 
