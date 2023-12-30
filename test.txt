@@ -141,7 +141,14 @@ step 2: push in the remote
  token: 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
  git remote set-url origin https://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@github.com/redwanhasan980/Git_tutorial.git
     git push -u origin master
+ 
+ ##day 7(Alias)
+ if we want to write git status but in short. lets say git st 
 
+git config --global alias.st 'ststus'
+now if we write git st instead of git status it will do  the same work 
+Exm:
+git config --gloabal alias.unstage 'restore --staged --'
 
 
 
