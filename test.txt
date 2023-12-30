@@ -137,11 +137,18 @@ step 2: push in the remote
       
      
      git token:
-     git hub setting-->personal access token-->classic token-->generate new token-->
+     git hub setting-->Developer settings-->personal access token-->classic token-->generate new token-->
  token: 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
- git remote set-url origin https://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@github.com/redwanhasan980/Git_tutorial.git
-    git push -u origin master
  
+ git remote set-url origin https://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@github.com/redwanhasan980/Git_tutorial.git
+    git push origin main
+   
+   
+    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
+   git remote set-url origin https://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@github.com/redwanhasan980/Git_tutorial.git
+   git push origin main
+
+   
  ##day 7(Alias)
  if we want to write git status but in short. lets say git st 
 
