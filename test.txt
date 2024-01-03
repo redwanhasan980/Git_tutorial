@@ -174,3 +174,9 @@ git checkout -b branch_name
 
 (make new branche and take me there)
 
+switch branche
+git checkout branche_name
+(switch to main branche)
+
+git branch
+(to show all the branches name)
