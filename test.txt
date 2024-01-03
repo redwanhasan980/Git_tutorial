@@ -116,7 +116,7 @@ day 5
 git restore --staged file_name
 unstaged a stage file
 
-git checkout -- fileName
+git checkout -- fileName  or git restore file_name
 unmodify file(if we edit or modify a file and then want to make that perticular file like last commit)
 
 git checkout -f
@@ -159,11 +159,18 @@ git config --gloabal alias.unstage 'restore --staged --'
 
 
 
+##day 8 (Branches)
 
 
+                       .branche 1---->(design part)--> added design .
+(master branches)      .                                            .    (master branches)
+1st com---> 2nd commit .(new idea)                                  .---> marge design and dev
+                       .                                            .
+                       .branche 2---->(develop)-->added funtion     .
 
 
+ -->making new branche
+git checkout -b branch_name
 
-
-
+(make new branche and take me there)
 
