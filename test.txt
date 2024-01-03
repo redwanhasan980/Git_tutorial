@@ -193,6 +193,7 @@ c1-->c2-->c3.--->c4-->c8
             .--->c5--->c6--->c7
             title change in both c8 and c7 .If we merge them now it will get confusing which title
             to take ..this is what merge conflict is about.when merging it will ask for which one to keep
+   if we want to resolve merge conflict we just have to take waht we want and then add then commit
 ##branch management
 git branch -v
 show git branch with last commit
