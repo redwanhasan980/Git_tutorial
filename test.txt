@@ -177,6 +177,11 @@ git checkout -b branch_name
 switch branche
 git checkout branche_name
 (switch to main branche)
+//always commit before switch.
 
 git branch
 (to show all the branches name)
+
+git merge hellonothing
+(merge hellonothing with the branch i am at right now(main))
+
