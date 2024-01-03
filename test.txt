@@ -185,3 +185,20 @@ git branch
 git merge hellonothing
 (merge hellonothing with the branch i am at right now(main))
 
+
+day9##merge conflict
+                  (c4 <title>BB</title>)  (c8<title>cc</title>)
+c1-->c2-->c3.--->c4-->c8
+            .            (c7,<title>dd</title>)
+            .--->c5--->c6--->c7
+            title change in both c8 and c7 .If we merge them now it will get confusing which title
+            to take ..this is what merge conflict is about.when merging it will ask for which one to keep
+##branch management
+git branch -v
+show git branch with last commit
+
+git branch -d branch_name
+(merged branch delete)
+
+git branch -D branch_name
+(non merged branch delete)
